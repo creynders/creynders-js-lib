@@ -1,4 +1,6 @@
-//namespace
+/**
+ * @namespace
+ */
 var creynders = creynders || {};
 
 /**
