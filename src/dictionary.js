@@ -27,8 +27,7 @@ creynders.Dictionary.prototype = {
 	 */
 	_getIndexByKey : function( key ){
 		for( var i = 0, n = this._list.length ; i < n ; i++ ){
-			if( this._list[ i ].key === key )
-                return i;
+			if( this._list[ i ].key === key ) return i;
 		}
 
 		return -1;
