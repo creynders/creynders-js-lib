@@ -42,11 +42,11 @@ creynders.Dictionary.prototype = {
 	 */
 	add : function( key, value ){
 		var index = this._getIndexByKey( key );
-        index  = ( index < 0 ) ? this._list.length : index;
-        this._list[ index ] = {
-            key : key,
-            value : value
-        }
+	        index  = ( index < 0 ) ? this._list.length : index;
+	        this._list[ index ] = {
+	            key : key,
+	            value : value
+	        }
 		return this;
 	},
 
