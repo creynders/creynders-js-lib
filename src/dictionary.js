@@ -16,7 +16,7 @@ creynders.Dictionary = function(){
 	 * @private
 	 */
 	this._list = [];
-    
+
 
 };//creynders.Dictionary
 
